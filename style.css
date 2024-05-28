@@ -49,10 +49,18 @@ border-top: none;
 }
 @import url('https://fonts.googleapis.com/css?family-Chakra+Petch:wght@400;700&display-swap");
 
- root {  --cor-de-fundo} verde: #6FFF57; -cor de Fundo: #161618, branco: #FFFFFF; boteo-ativo: #343756;
- --botao-Inativo: rgba(58, 55, 94, 6.5); texto fundo: rgba(58, 55, 94, 0.3);) 
+ root {  --cor-de-fundo: #161618;  --verde: #6FFF57;  --branco: #FFFFFF;  --boteo-ativo: #3A375E;
+ --botao-Inativo: rgba(58, 55, 94, 0.5); --texto-fundo: rgba(58, 55, 94, 0.3);}
  body { background-color: var(cor de funde); color: var(branco);
-     font-family: Chakra Petch, sans-serif;} 
-     .conteudo-principal (display: flex; flex direction: column; justify-content: center;
-        align-items: center; titulo-principal (text-align: left; width: 100%; font-size: 32px; } max-width: 1200px; width: 100%; margin: 0 auto; }
-        .titulo-principal span (color: var(verde)) botao (font-family: Crakra Petche, sans-serif; color: var(branco); display: flex; background-color: var(botao-inativo); align-items: center; Justify-content: center; padding: 1em; wudth: 100%; border-bottom: 4px solid var(betao-ativo), font-size: 18px border-left: 2px solid var(-botan-ativo), border right: 2px solid var(botas-ativo); ano pof border-top...
+     font-family: 'Chakra Petch', sans-serif;} 
+     .conteudo-principal { display: flex; flex direction: column; justify-content: center;
+        align-items: center;  max-width: 1200px; width: 100%; margin: 0 auto; }
+    .titulo-principal span {color: var( --verde)}
+        .botao (font-family: Crakra Petche, sans-serif; background-color: var( --botao-inativo);
+         color: var(branco); display: flex; Justify-content: center; padding: 1em; font-size:18px
+         
+
+
+
+
+
