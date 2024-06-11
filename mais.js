@@ -11,3 +11,6 @@ botoes[j].classList.remove("ativo");
 botoes[i].classList.add("ativo");
 const contadores = document.querySelectorAll(“.contador”);
 contadores[0]
+const contadores = document.querySelectorAll(“.contador”);
+const tempoObjetivo1 = new Date(“2024-10-05”);
+contadores[0].textContent = tempoObjetivo1;
